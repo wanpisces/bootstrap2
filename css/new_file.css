@@ -1,0 +1,134 @@
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url('../fonts/glyphicons-halflings-regular.eot');
+src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+} 
+
+#about,#sevices,#touch{
+	overflow: hidden;
+	transition: all 500ms;
+}
+#abuoutDown,#seviceDown,#touchDown{
+	position: relative;
+	border-bottom: 1px solid darkgrey;
+	padding: 10px;
+	transform: translateY(-800px);
+}
+#abuoutDown.topDown,#seviceDown.topDown,#touchDown.topDown{
+	transform: translateY(0px);
+	animation: spin 1s;
+}
+@-moz-keyframes spin{
+	0%{transform: translateY(-800px);}
+	30%{transform: translateY(0px);}
+	60%{transform: translateY(-40px);}
+	100%{transform: translateY(0px);}
+}
+@-ms-keyframes spin{
+	0%{transform: translateY(-800px);}
+	30%{transform: translateY(0px);}
+	60%{transform: translateY(-40px);}
+	100%{transform: translateY(0px);}
+}
+@-webkit-keyframes spin{
+	0%{transform: translateY(-800px);}
+	30%{transform: translateY(0px);}
+	60%{transform: translateY(-40px);}
+	100%{transform: translateY(0px);}
+}
+#main1 .carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+#navList ul{
+	background:rgba(96,171,241,.7);
+}
+#aboutOne{
+	padding: 60px 0px;
+}
+#aboutOne span{
+	padding: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	color: gray;
+}
+#aboutTwo img{
+	border-radius: 100%;
+}
+#aboutTwo .col-md-3{
+	margin-bottom: 20px;
+}
+#aboutTwo .aboutMargin{
+	position: relative;
+	bottom: -800px;
+}
+.aboutMargin{
+	background: lightgrey;
+	padding: 10px;
+}
+#sevices .aboutMargin{
+	background: rgba(0,0,0,0);
+	opacity: 0;
+}
+#aboutTwo P{
+	font-size: 12px;
+}
+#sevivces{
+	background: rgba(228,222,229,.3);
+	padding: 50px;
+}
+#sevivces .aboutMargin span{
+	font-size: 40px;
+}
+#ulNav li{
+	list-style: none;
+	float: left;
+	width: 50px;
+	font-size: 18px;
+}
+#upTop{
+	width: 80px;height: 80px;
+	border: 3px solid white;
+	border-radius: 100%;
+	margin-bottom: 40px;
+}
+#upTop span{
+	display: block;
+	color: white;
+	font-size: 30px;
+	width: 80px;height: 80px;
+	line-height: 80px;
+}
+footer{
+	margin-top: 80px;
+	background: lightblue;
+	padding: 50px;
+}
+@media only screen and (min-width:768px ) {
+	#aboutOne span{
+		font-size: 14px;
+		font-weight: 400;
+	}
+	#aboutTwo P{
+		font-size: 18px;
+		margin: auto;
+	}
+}
+@media only screen and (min-width:992px ) {
+	#aboutOne span{
+		font-size: 18px;
+		font-weight: 600;
+	}
+	#aboutTwo P{
+		font-size: 16px;
+	}
+}
+@media only screen and (min-width:1200px ) {
+	#aboutOne span{
+		font-size: 20px;
+		font-weight: 800;
+	}
+	#aboutTwo P{
+		font-size: 16px;
+	}
+}

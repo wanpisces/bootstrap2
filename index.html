@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>响应式网页</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet"type="text/css"/>
+		<link href="css/new_file.css" rel="stylesheet"type="text/css" />
+	</head>
+	<body  data-spy="scroll"data-target="#mainNav">
+		<nav id="mainNav" class="nav navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#"class="navbar-brand">SQUAD FREE</a>
+					<button class="glyphicon glyphicon-list navbar-toggle"data-toggle="collapse"data-target="#navList"></button>
+				</div>
+				<div class="collapse navbar-collapse"id="navList">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#main1">HOME</a> </li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="#sevices">SERVICE</a></li>
+							<li><a href="#touch">CONTACT</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle"data-toggle="dropdown">
+									DROPDOWN
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="javascript:">pageOne</a></li>
+									<li><a href="javascript:">pageTwo</a></li>
+									<li><a href="javascript:">pageThree</a></li>
+									<li><a href="javascript:">pageFour</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</nav>
+		<div id="main">
+			<div id="main1" class="carousel slide">
+				<ol class="carousel-indicators">
+					<li data-target="#main1"data-slide-to="0"class="active">1</li>
+					<li data-target="#main1"data-slide-to="1">2</li>
+					<li data-target="#main1"data-slide-to="2">3</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/bg1.png" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/bg2.png" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/bg3.png" class="img-responsive"/>
+					</div>
+				</div>
+				<a class="carousel-control left"href="#main1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span> </a>
+				<a class="carousel-control right"href="#main1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span> </a>
+			</div>
+			<div id="about">
+				<div class="container">
+					<div id="aboutOne" class="row text-center">
+						<div class="col-md-12"id="abuoutDown">
+							<h2> ABOUT US</h2>
+							<p><span class="glyphicon glyphicon-chevron-down"></span></p>
+						</div>
+					</div>
+					<div id="aboutTwo" class="row">
+						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+							<div class="aboutMargin">
+								<p>ANNA HANACECK</p>
+								<p>Pixel Crafter</p>
+								<img src="img/1.jpg"class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+							<div class="aboutMargin">
+								<p>MAURA DANIELS</p>
+								<p>Pixel Crafter</p>
+								<img src="img/2.jpg"class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+							<div class="aboutMargin">
+								<p>JACK BRIANE</p>
+								<p>Pixel Crafter</p>
+								<img src="img/3.jpg"class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+							<div class="aboutMargin">
+								<p>TOM PETTERSON</p>
+								<p>Pixel Crafter</p>
+								<img src="img/4.jpg"class="img-responsive" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="sevices">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center"id="seviceDown" >
+							<h2 style="margin-bottom: 20px;">OUR SEVICES</h2>
+							<p style="font-size: 20px;"><span class="glyphicon glyphicon-chevron-down"></span> </p>
+						</div>
+					</div>
+					<div class="row"style="padding: 20px;">
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="aboutMargin text-center">
+								<p><span class="glyphicon glyphicon-sd-video"></span> </p>
+								<p>PRINT</p>
+								<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="aboutMargin text-center">
+								<p><span class="glyphicon glyphicon-picture"></span> </p>
+								<p>WEB DESIGN</p>
+								<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="aboutMargin text-center">
+								<p><span class="glyphicon glyphicon-film"></span> </p>
+								<p>PHOTOGRAPHY</p>
+								<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="aboutMargin text-center">
+								<p><span class="glyphicon glyphicon-cog"></span> </p>
+								<p>CLOUD SYSTEM</p>
+								<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="touch">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center" id="touchDown">
+							<h2 style="margin-bottom: 20px;">GET IN TOUCH</h2>
+							<p style="font-size: 20px;"><span class="glyphicon glyphicon-chevron-down"></span> </p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-8">
+							<form role="form">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="Name">NAME</label>
+											<input type="text"class="form-control"id="name" placeholder="Enter name"required="required"/>
+										</div>
+										<div class="form-group">
+											<label for="Email">EMAIL ADDRESS</label>
+											<div class="input-group">
+												<span class="input-group-addon">
+													<span class="glyphicon glyphicon-envelope"></span>
+												</span>
+												<input type="text"class="form-control"id="email" placeholder="Enter email"required="required"pattern="^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$" />
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="subject">SUBJECT</label>
+											<select name="subject"id="subject"class="form-control">
+												<option value="one" selected="selected">Choose One</option>
+												<option value="service">General Customer Service</option>
+												<option value="suggestion">Suggestion</option>
+												<option value="product">Product Support</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="textarea">Message</label>
+											<textarea name="message"id="message"class="form-control"rows="9"cols="25"placeholder="Message"required="required"></textarea>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-warning pull-right">SEND MESSAGE</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-4">
+							<h5>MAIN OFFICE</h5>
+							<p>
+								<strong>Squas Design</strong><br />
+								Tower 795 Folsom Ave, Beautiful Suite 600<br />
+								San Francisco, CA 94107<br />
+								P: (123) 456-7890<br />
+							</p>
+							<p>
+								<strong>Email</strong><br />
+								<a>email.name@example.com</a>
+							</p>
+							<p>
+								<strong>We're on social networks</strong><br />
+								<ul id="ulNav">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-gift"></span></a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-leaf"></span></a> 
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-eye-open"></span></a> 
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-calendar"></span></a>
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="text-center">
+			<div class="center-block" id="upTop"><span class="glyphicon glyphicon-triangle-top"></span> </div>
+			<p>@copyright 2016-1-12 by php</p>
+		</footer>
+		<script src="js/jquery-1.10.2.min.js"type="text/javascript"></script>
+		<script src="js/bootstrap.min.js"type="text/javascript"></script>
+		<script src="js/new_file.js"type="text/javascript"></script>
+		
+	</body>
+</html>
